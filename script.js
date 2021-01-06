@@ -1,5 +1,10 @@
-//function to generate random number between 1 and 5
+//function to generate random number between 0 and 4 - working
+let randomNum = () => {
+    var number = Math.floor(Math.random() * 5);
+    console.log(number);
+};
 
+randomNum();
 
 //object of arrays of name, creature, power
 
